@@ -1,3 +1,19 @@
 body{
-    
+    width: 100vw;
+    height: 300vh;
+    background-image: url("./fruits-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.orb{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: blue;
 }
